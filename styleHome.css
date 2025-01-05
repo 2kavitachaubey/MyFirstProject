@@ -68,22 +68,24 @@ body{
     gap: 15px;
 }
 
-.header-subtitle h3{
+.header-subtitle {
     color: #254B45;
     background-color: #ffffff;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
 
-    padding: 10px 16px;
+    padding: 10px 0;
     border-radius: 100px;
     font-size: 18px;
 }
 
-.header-title h1{
+.header-title{
     font-size: 48px;
     color: #254B45;
     margin: 0;
+    max-width: 100%;
 }
 
 .header-description p{
